@@ -2,10 +2,10 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
-  "serialNumber": "urn:uuid:b674ae3c-9eaf-4eb5-8c25-2f835c13c15f",
+  "serialNumber": "urn:uuid:07cdbc8f-8275-44f9-ad34-f862efec00b7",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-19T07:23:33.644Z",
+    "timestamp": "2026-07-19T08:52:08.548Z",
     "tools": [
       {
         "vendor": "K0NSULT",
@@ -34,7 +34,7 @@
       },
       {
         "name": "k0nsult:stats",
-        "value": "{\"total\":5,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":5,\"node_libraries\":0}"
+        "value": "{\"total\":6,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":6,\"node_libraries\":0}"
       }
     ]
   },
@@ -172,6 +172,34 @@
         {
           "name": "k0nsult:bytes",
           "value": "1041"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:STEWARDSHIP-KIT.md",
+      "name": "STEWARDSHIP-KIT.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "984be2f74aeb234b6f72b2958def7ab8fb5259d03e9d00c22221a87f10d9830f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "STEWARDSHIP-KIT.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "12675"
         },
         {
           "name": "k0nsult:surface",
