@@ -2,10 +2,10 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
-  "serialNumber": "urn:uuid:07cdbc8f-8275-44f9-ad34-f862efec00b7",
+  "serialNumber": "urn:uuid:16f785af-39ee-47e6-b77b-7ecaeb8308a2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-19T08:52:08.548Z",
+    "timestamp": "2026-07-19T09:05:41.908Z",
     "tools": [
       {
         "vendor": "K0NSULT",
@@ -34,7 +34,7 @@
       },
       {
         "name": "k0nsult:stats",
-        "value": "{\"total\":6,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":6,\"node_libraries\":0}"
+        "value": "{\"total\":8,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":8,\"node_libraries\":0}"
       }
     ]
   },
@@ -97,6 +97,34 @@
     },
     {
       "type": "file",
+      "bom-ref": "surface:EDIC-CONTRIBUTION.md",
+      "name": "EDIC-CONTRIBUTION.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ceeaa7892e2135eaf7de54fd12ba638f72fc903c7cfd94b2197e1fcb2283ddd4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "EDIC-CONTRIBUTION.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "4792"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "bom-ref": "surface:LICENSE",
       "name": "LICENSE",
       "group": "other",
@@ -144,6 +172,34 @@
         {
           "name": "k0nsult:bytes",
           "value": "517"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:OPEN-INTERNET-STACK-ENTRY.md",
+      "name": "OPEN-INTERNET-STACK-ENTRY.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ba1f754933d2b6fe04097278f3c35c961a61dbade6cd400cf0d700695251fbab"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "OPEN-INTERNET-STACK-ENTRY.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "4983"
         },
         {
           "name": "k0nsult:surface",
