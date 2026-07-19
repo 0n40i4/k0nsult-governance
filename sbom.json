@@ -2,10 +2,10 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
-  "serialNumber": "urn:uuid:16f785af-39ee-47e6-b77b-7ecaeb8308a2",
+  "serialNumber": "urn:uuid:649a9a75-4c2a-422a-8940-b73eee9e118b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-19T09:05:41.908Z",
+    "timestamp": "2026-07-19T17:06:52.899Z",
     "tools": [
       {
         "vendor": "K0NSULT",
@@ -34,7 +34,7 @@
       },
       {
         "name": "k0nsult:stats",
-        "value": "{\"total\":8,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":8,\"node_libraries\":0}"
+        "value": "{\"total\":9,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":9,\"node_libraries\":0}"
       }
     ]
   },
@@ -228,6 +228,34 @@
         {
           "name": "k0nsult:bytes",
           "value": "1041"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:REVIEW-INVITATION.md",
+      "name": "REVIEW-INVITATION.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e1fa51bde0849c058a3737dbb6370205fd226540414f5c541ae67dc2bcbab24e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "REVIEW-INVITATION.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "2715"
         },
         {
           "name": "k0nsult:surface",
