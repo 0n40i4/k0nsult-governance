@@ -1,0 +1,183 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
+  "serialNumber": "urn:uuid:b674ae3c-9eaf-4eb5-8c25-2f835c13c15f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-19T07:23:33.644Z",
+    "tools": [
+      {
+        "vendor": "K0NSULT",
+        "name": "sbom.mjs",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "k0nsult-opensource-surface",
+      "name": "K0NSULT open-source surface (ai-truth / uni0nai / ipIII)",
+      "version": "1.0.0"
+    },
+    "properties": [
+      {
+        "name": "k0nsult:root",
+        "value": "C:/Users/USER/Desktop/K0NSULT-OSS/k0nsult-governance"
+      },
+      {
+        "name": "k0nsult:scope",
+        "value": "all files under root (recursive, excl. .git/node_modules) + node deps"
+      },
+      {
+        "name": "k0nsult:license_proposed",
+        "value": "Apache-2.0 (patrz LICENSE.proposed)"
+      },
+      {
+        "name": "k0nsult:stats",
+        "value": "{\"total\":5,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":5,\"node_libraries\":0}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "surface:CHARTER.md",
+      "name": "CHARTER.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fcf7f3b76d6d643b3ae231578bf1046e1d9b61dc7a1b8ee5959fc089259632d1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "CHARTER.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "2732"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:CONSULTATION-RESPONSE-DRAFT.md",
+      "name": "CONSULTATION-RESPONSE-DRAFT.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e9e0685dbba5373d5e68b5ab55967bbc2564619ab7283d30d41b3c324e61a9da"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "CONSULTATION-RESPONSE-DRAFT.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "2893"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:LICENSE",
+      "name": "LICENSE",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3359ea11b3bdde09d47f03740e257cdcefbb1a0161878cb792aa5863e5d83269"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "LICENSE"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "11357"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:NOTICE",
+      "name": "NOTICE",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f0f60497c481fcb254e6eccd9408cb61a968e1eca1590aea0a5a24dfbe9ea548"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "NOTICE"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "517"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:README.md",
+      "name": "README.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "47466151322f666057fc2862436d8ae167a31d9d2967066e470ae43896478eb7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "README.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "1041"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    }
+  ]
+}
