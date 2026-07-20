@@ -51,6 +51,8 @@ Each commons repo publishes the following fields (proposed minimal record for #3
 never upgrades a GAP to a DOWÓD. Publication of each repo is operator-gated and may lag this
 entry; a repo not yet public is marked GAP until its remote resolves. As of 2026-07 all nine commons repos are public.)*
 
+**Scope note (repo count).** The table above lists the **5 core open-internet-stack repos**. The full K0NSULT open-commons polyrepo is **9 repos**: the 5 above **plus** the national-layer pair (`k0nsult-country-pl` reference + `k0nsult-country-template` scaffold) and the two NON-EU global tracks (`k0nsult-global-cm`, `k0nsult-global-ar`), which are catalogued separately and — per the EU/global separation — carry their own funding, not EU-earmarked resources. Where other documents cite "9 repos", they mean this full polyrepo; the 5-row table is the EU-facing core.
+
 ## 4. Adoption path (no maintainer contact required)
 1. **Find** — one catalogue row per repo, machine-readable fields (Section 2).
 2. **Assess** — clone, recompute `sbom.json` hashes, run the repo's validator, read the evidence
