@@ -22,11 +22,11 @@ All under `github.com/0n40i4/`.
 Every tool is zero-dependency (Node ≥18) and ships a self-test. Run them and try to falsify:
 ```bash
 git clone https://github.com/0n40i4/k0nsult-ai-truth-core && cd k0nsult-ai-truth-core
-node schema/validate.mjs --selftest      # claim<=proof validator (7/7)
+node schema/validate.mjs --selftest      # claim<=proof validator (11/11)
 
 git clone https://github.com/0n40i4/k0nsult-uni0nai && cd k0nsult-uni0nai
-node conformance.mjs --selftest          # 19/19 golden-vectors
-node did-resolver.mjs --selftest         # 22/22
+node conformance.mjs --selftest          # 22/22 golden-vectors
+node did-resolver.mjs --selftest         # 25/25
 
 # k0nsult-tools:   node sbom-expose.mjs|dep-provenance.mjs|procurement-check.mjs|attest-verify.mjs --selftest
 # k0nsult-eu-shield: node art50/art50.mjs --selftest ; node gen-publiccode.mjs --selftest ; node a11y-check.mjs --selftest

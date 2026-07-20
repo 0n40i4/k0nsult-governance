@@ -58,8 +58,8 @@ This directly informs how an EDIC could admit small contributors (needs #23/#24/
 ## 5. Readiness of this candidacy (claim ≤ proof)
 - **DOWÓD:** the governance charter, the eligibility model, and the evidence-first validator are
   shipped and re-derivable today.
-- **GAP:** several building blocks are roadmap-stage; public repositories are prepared locally and
-  remain private pending operator sign-off (publication is irreversible — Human Override Always).
+- **GAP:** several building blocks are roadmap-stage; the repositories are **public (Apache-2.0)
+  on github.com/0n40i4** (publication is irreversible and operator-gated — Human Override Always).
 - **GAP:** no sovereign signing key exists (No Password Custody). Signed releases await either an
   operator-held key or the EU keyless capability requested in §4.2.
 - This document is a **candidate declaration**, not an accepted membership. Any submission to an

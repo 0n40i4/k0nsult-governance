@@ -20,7 +20,8 @@ patent grant, a hash-anchored SBOM, a scoped `NOTICE` (commons/engine boundary),
 that states the evidence class of each of its claims.
 
 The catalogue does not need to trust a narrative. Every row is re-derivable by a third party:
-clone the repo, recompute the SBOM hashes, run the shipped validator.
+clone the repo, recompute the SBOM hashes (computed over LF-normalized content; a fresh clone with
+`.gitattributes eol=lf` reproduces an exact match), and run the shipped tool self-tests.
 
 ## 2. Catalogue metadata (repo-level)
 Each commons repo publishes the following fields (proposed minimal record for #38-39):
@@ -32,7 +33,7 @@ Each commons repo publishes the following fields (proposed minimal record for #3
 | `patent_grant` | Apache-2.0 §3 or `PATENT_GRANT.md` | yes |
 | `sbom` | `sbom.json` (SHA-256 per file) | yes — recompute hashes |
 | `notice_scope` | `NOTICE` scope block (OPEN vs engine boundary) | yes |
-| `evidence_class` | README claims table (DOWÓD \| GAP \| NARRACJA) | yes — run validator |
+| `evidence_class` | README claims table (DOWÓD \| GAP \| NARRACJA) | partly — `k0nsult-ai-truth-core` ships a `claims.json` to run through `validate.mjs`; other repos evidence their claims via SBOM + tool self-tests |
 | `contains_pii` | asserted `false` for every commons repo | yes — grep / schema enum |
 | `contains_engine` | asserted `false` for every commons repo | yes — NOTICE + review |
 
