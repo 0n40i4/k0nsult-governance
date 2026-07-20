@@ -49,7 +49,7 @@ Each commons repo publishes the following fields (proposed minimal record for #3
 
 *(Rows carry the same honest evidence class the module's own README asserts — the catalogue
 never upgrades a GAP to a DOWÓD. Publication of each repo is operator-gated and may lag this
-entry; a repo not yet public is marked GAP until its remote resolves.)*
+entry; a repo not yet public is marked GAP until its remote resolves. As of 2026-07 all nine commons repos are public.)*
 
 ## 4. Adoption path (no maintainer contact required)
 1. **Find** — one catalogue row per repo, machine-readable fields (Section 2).
