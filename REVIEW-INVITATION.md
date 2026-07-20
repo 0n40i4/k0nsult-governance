@@ -11,6 +11,13 @@ engine stays private; contracts, schemas, tools and transparency surfaces are op
 
 All under `github.com/0n40i4/`.
 
+> **Already audited.** The commons went through four internal adversarial rounds; the open,
+> unfixed limitations are documented honestly in `KNOWN-LIMITATIONS.md` (in `k0nsult-uni0nai`,
+> `k0nsult-tools`, `k0nsult-eu-shield`) — e.g. the self-tests assert a verdict, not each rule, so
+> a green self-test is **not** proof a given guard works. For a deep, structured review see the
+> six-area brief: [`REVIEW-REQUEST-DETAILED.md`](./REVIEW-REQUEST-DETAILED.md). Your value is to
+> *extend* our audit from outside the ecosystem, not repeat it.
+
 ## Try to break it (evidence-first)
 Every tool is zero-dependency (Node ≥18) and ships a self-test. Run them and try to falsify:
 ```bash
