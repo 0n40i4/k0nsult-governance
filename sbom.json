@@ -2,10 +2,10 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
-  "serialNumber": "urn:uuid:771a7f7a-c53c-4de8-a781-d6901d2f02fe",
+  "serialNumber": "urn:uuid:6923977c-0c53-4d0f-82df-df4914458c51",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-22T01:16:23.933Z",
+    "timestamp": "2026-07-22T13:45:45.695Z",
     "tools": [
       {
         "vendor": "K0NSULT",
@@ -33,7 +33,7 @@
       },
       {
         "name": "k0nsult:scope",
-        "value": "all files under root (recursive, excl. .git/node_modules) + node deps"
+        "value": "files under root (recursive), excl. .git/node_modules and generator meta-files (publiccode.yml, index.json, *sbom.json — anti-cycle); + node deps"
       },
       {
         "name": "k0nsult:hash_basis",
