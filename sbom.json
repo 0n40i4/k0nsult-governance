@@ -2,10 +2,10 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
-  "serialNumber": "urn:uuid:e2a1374f-693c-48af-93c2-12549cb64e44",
+  "serialNumber": "urn:uuid:08bb1512-8d05-4229-b336-e977bf57080d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-21T16:39:01.062Z",
+    "timestamp": "2026-07-22T01:02:38.310Z",
     "tools": [
       {
         "vendor": "K0NSULT",
@@ -45,7 +45,7 @@
       },
       {
         "name": "k0nsult:stats",
-        "value": "{\"total\":14,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":14,\"node_libraries\":0}"
+        "value": "{\"total\":15,\"files_html\":0,\"data_json\":0,\"code_files\":0,\"other_files\":15,\"node_libraries\":0}"
       }
     ]
   },
@@ -156,7 +156,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "25c94dbf9ca9a1c2205c589297b6179cbe5c44b687653d74b540aa9f2a1b068c"
+          "content": "8fea586e2ab1865f7be118e3b56b99bf6d6bce73e319a2daf95da52d02221897"
         }
       ],
       "properties": [
@@ -166,7 +166,7 @@
         },
         {
           "name": "k0nsult:bytes",
-          "value": "3019"
+          "value": "3054"
         },
         {
           "name": "k0nsult:eol",
@@ -199,6 +199,38 @@
         {
           "name": "k0nsult:bytes",
           "value": "4791"
+        },
+        {
+          "name": "k0nsult:eol",
+          "value": "lf-normalized"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:ERRATA.md",
+      "name": "ERRATA.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "553302f40e8b7c40f81cc2adc28073a2372a017e3bb0c9c7bb8b9a49c296fc10"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "ERRATA.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "4257"
         },
         {
           "name": "k0nsult:eol",
@@ -380,7 +412,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "1ff0a1713d633261f8528d0c12162e186324289441c8d993416debdafb0c90f2"
+          "content": "27b883dbcda387aaaeacd20cc3b2122b82262a6ca4ec1b1fc25e7e9361b00c7f"
         }
       ],
       "properties": [
@@ -390,7 +422,7 @@
         },
         {
           "name": "k0nsult:bytes",
-          "value": "3262"
+          "value": "3726"
         },
         {
           "name": "k0nsult:eol",
