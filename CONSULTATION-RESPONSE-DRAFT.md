@@ -1,12 +1,24 @@
 # Consultation response — requirement → spec field → evidence class (COM(2026)503)
 
-**Status:** DRAFT for operator sign-off. **Companion to** the main submission
+**Status:** SUBMITTED. **Companion to** the main submission
 (`SUBMISSION_EU_OSS_2026-07-18.md`) and the needs annex (`ANNEX-EU-NEEDS-MAPPING.md`).
 This table is the machine-checkable backbone: each EU requirement is answered by a concrete
 K0NSULT artefact with an honest evidence class (`claim ≤ proof`).
 
-> **Not sent.** Submission is via the operator to `konsultacje@cyfra.gov.pl` (deadline 21.07.2026).
-> No agent sends it (No Password Custody / Human Override).
+> **Submitted, twice, by the operator.** Both submissions were sent by a human; no agent
+> sends correspondence (No Password Custody / Human Override).
+>
+> - **2026-07-20, 18:21 CEST** — response to the public consultation on the EU Open Source
+>   Strategy (COM(2026)503), to the Polish Ministry of Digital Affairs
+>   (`konsultacje@cyfra.gov.pl`), position paper attached in English.
+> - **2026-07-21, 16:55 CEST** — onboarding request for the **EU Open Source Solutions
+>   Catalogue** via the Interoperable Europe Portal contact form; acknowledged the same day
+>   by the Portal Support Team, reference **JUS-5388**, with the EU OSS Catalogue team
+>   copied.
+>
+> Figures quoted in those submissions are dated. Their provenance — and the corrections
+> that followed an external adversarial review — are recorded in [`ERRATA.md`](./ERRATA.md).
+> Read that file alongside this one.
 
 | EU need | K0NSULT answer (artefact) | Repo | Evidence class |
 |---|---|---|---|

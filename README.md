@@ -11,7 +11,8 @@ consultation-response backbone for the EU Open Source Strategy (COM(2026)503).
 | File | What it is |
 |---|---|
 | `CHARTER.md` | Governance charter — engine/commons boundary, doctrine, eligibility artefacts, fork/exit |
-| `CONSULTATION-RESPONSE-DRAFT.md` | EU requirement → K0NSULT artefact → evidence class (DRAFT, operator-gated send) |
+| `CONSULTATION-RESPONSE-DRAFT.md` | EU requirement → K0NSULT artefact → evidence class (submitted 2026-07-20; see `ERRATA.md`) |
+| `ERRATA.md` | Corrections and dated provenance of every published figure — read this alongside any claim we make |
 
 ## Purpose (COM(2026)503)
 Answers needs #23 (accelerator template), #24 (stewardship toolkit), #25-28 (foundations),
