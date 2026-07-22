@@ -11,13 +11,13 @@ K0NSULT artefact with an honest evidence class (`claim ≤ proof`).
 | EU need | K0NSULT answer (artefact) | Repo | Evidence class |
 |---|---|---|---|
 | #7 Cybersecurity tooling / findings | `finding-v1.schema.json` (vendor-neutral finding + VEX) | k0nsult-tools | DOWÓD (schema shipped) |
-| #13-16 Procurement acceptance | `PATENT_GRANT.md` + SBOM as scored criterion | k0nsult-tools | DOWÓD (grant+SBOM+procurement-check.mjs 15/15) |
-| #47-50 Operational guidance | `SPEC-claim-le-proof.md` + validator (11/11 tests) | k0nsult-ai-truth-core | DOWÓD (runnable) |
-| #48 Dependency exposure | SBOM SHA-256 per component | k0nsult-tools | DOWÓD (k0nsult-tools SBOM = 21 komponentów; 119 w 9 repo — liczba re-derywowalna `node sbom.mjs`, hash na treści LF-znormalizowanej = świeży klon) |
+| #13-16 Procurement acceptance | `PATENT_GRANT.md` + SBOM as scored criterion | k0nsult-tools | DOWÓD (grant+SBOM+procurement-check.mjs — see `TEST-COUNTERS.md`) |
+| #47-50 Operational guidance | `SPEC-claim-le-proof.md` + validator | k0nsult-ai-truth-core | DOWÓD (runnable — counter in `TEST-COUNTERS.md`) |
+| #48 Dependency exposure | SBOM SHA-256 per component | k0nsult-tools | DOWÓD (re-derywowalne: `node sbom.mjs --verify` na świeżym klonie; liczby patrz `ERRATA.md`, nie utrwalane w prozie) |
 | #49 Mirroring / build integrity | `verify_bundle.mjs` deterministic verifier | k0nsult-tools | GAP (hardening) |
 | #6/#19 Agent interoperability | ACP + DID + skill taxonomy contract | k0nsult-uni0nai | GAP (public spec) |
 | #9/#43-45 Digital identity | DID method aligned with EUID/eIDAS2 (agent layer) | k0nsult-uni0nai | GAP |
-| #21 art.50 transparency | art.50 labelling toolkit + registry | k0nsult-eu-shield | DOWÓD (art50.mjs 19/19) |
+| #21 art.50 transparency | art.50 labelling toolkit + registry | k0nsult-eu-shield | DOWÓD (art50.mjs — counter in `TEST-COUNTERS.md`) |
 | #23/#24/#32 Stewardship | this `CHARTER.md` (micro-OSPO track) | k0nsult-governance | DOWÓD (charter shipped) |
 | #62 CRA art.25 attestation | signed SBOM + provenance | k0nsult-tools | GAP (needs sovereign signing) |
 | #69/#76 Choice / no lock-in | Apache-2.0 forkable polyrepo | all | DOWÓD (licence) |

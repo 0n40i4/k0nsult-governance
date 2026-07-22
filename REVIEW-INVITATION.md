@@ -1,4 +1,4 @@
-# Open invitation — independent audit of the K0NSULT open commons
+# Open invitation — independent audit of the K0NSULT open commons (invited; external review in progress, findings open)
 
 We invite independent, **adversarial** review of the K0NSULT open-source commons — the
 building blocks published as our contribution to the EU Open Source Strategy consultation
@@ -22,16 +22,22 @@ All under `github.com/0n40i4/`.
 Every tool is zero-dependency (Node ≥18) and ships a self-test. Run them and try to falsify:
 ```bash
 git clone https://github.com/0n40i4/k0nsult-ai-truth-core && cd k0nsult-ai-truth-core
-node schema/validate.mjs --selftest      # claim<=proof validator (11/11)
+node schema/validate.mjs --selftest      # claim<=proof validator
 
 git clone https://github.com/0n40i4/k0nsult-uni0nai && cd k0nsult-uni0nai
-node conformance.mjs --selftest          # 22/22 golden-vectors
-node did-resolver.mjs --selftest         # 25/25
+node conformance.mjs --selftest          # golden-vectors
+node did-resolver.mjs --selftest
 
 # k0nsult-tools:   node sbom-expose.mjs|dep-provenance.mjs|procurement-check.mjs|attest-verify.mjs --selftest
 # k0nsult-eu-shield: node art50/art50.mjs --selftest ; node gen-publiccode.mjs --selftest ; node a11y-check.mjs --selftest
 ```
 Nine tools; all self-tests pass for us. We want them independently re-run and challenged.
+
+> **On test counters.** Each `--selftest` prints its own pass count; we deliberately do **not**
+> hard-code those numbers in prose. An external audit (round 2) found our documented counters had
+> gone stale as the suites grew — a documented number that disagrees with the tool is a defect in
+> the claim, not a detail. The tool's output is authoritative; if a count here ever disagrees with
+> a fresh clone, trust the clone and tell us.
 
 ## What we most want reviewed
 1. **Hidden-engine invariant** — does any repo leak engine code, data, or credentials? Surfaces call an `/api/*` boundary; is that boundary acceptable or over-disclosing?
